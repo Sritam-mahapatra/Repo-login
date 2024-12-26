@@ -1,0 +1,23 @@
+
+/* Hide the scrollbar but keep the scrolling functionality */
+/* Hide scrollbar and make it scrollable */
+.hidden-scrollbar {
+    overflow: auto; /* Allow scroll */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox (transparent scrollbar) */
+  }
+  
+  /* For Webkit browsers (Chrome, Safari, Edge) */
+  .hidden-scrollbar::-webkit-scrollbar {
+    width: 0; /* Hide vertical scrollbar */
+    height: 0; /* Hide horizontal scrollbar */
+  }
+  /* Add this to your app.css */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+    scrollbar-width: none;  /* For Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* For Chrome, Safari, and newer versions of Edge */
+  }
