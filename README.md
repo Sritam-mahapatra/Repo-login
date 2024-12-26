@@ -1,3 +1,28 @@
 # repo-login
 
-repo-login is a React application built using Create React App, designed to demonstrate basic React functionality. The project incorporates popular React libraries such as `react-router-dom`, `react-icons`, and others to build a modern, interactive user interface. To get started, clone the repository using `git clone https://github.com/Sritam-mahapatra/repo-login.git`, then navigate to the project directory and run `npm install` to install the required dependencies. After installation, start the development server with `npm start`, and the app will be available at `http://localhost:3000`. Before running the project, ensure that **Node.js** (version 14 or later) and **npm** are installed on your system. The project is structured with `public/` containing static assets, `src/` containing source code and components, and `package.json` for managing dependencies and scripts. This app is built with React, React Router for routing, React Icons for iconography, and npm as the package manager. The project is open-source and available under the [MIT License](LICENSE), and contributions are welcome through pull requests or by opening issues on GitHub.
+A simple React project built with Create React App, designed to demonstrate basic React functionality. This project includes common React libraries like react-router-dom, react-icons, and more.
+
+## Features
+
+- **React**: A JavaScript library for building user interfaces.
+- **React Router DOM**: For handling routing and navigation in the app.
+- **React Icons**: To use icons in your project.
+- **React Scripts**: Provides build and development scripts.
+
+## Getting Started
+
+Follow these steps to set up and run the project locally:
+
+### 1. Clone the repository
+Clone this repository to your local machine:
+
+bash
+git clone https://github.com/Sritam-mahapatra/repo-login.git
+### 2. Install Dependncies
+Navigate to the project directory and install the dependencies using npm
+bash
+cd repository-screen
+npm install
+### 3. Start the development server
+bash
+npm start
