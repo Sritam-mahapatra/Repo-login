@@ -1,4 +1,4 @@
-# repo-logic
+# repo-login
 
 A simple React project built with Create React App, designed to demonstrate basic React functionality. This project includes common React libraries like `react-router-dom`, `react-icons`, and more.
 
