@@ -18,7 +18,12 @@ Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/Sritam-mahapatra/repo-login.git
+### 2. Install Dependncies
+Navigate to the project directory and install the dependencies using npm
+```bash
 cd repository-screen
 npm install
+### 3. Start the development server
+```bash
 npm start
 
